@@ -1,0 +1,65 @@
+body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+
+nav {
+    height: 5%;
+    width: 100%;
+    padding-right: 6px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.nav {
+    padding: 5px;
+}
+.navImg {
+    padding: 15px;
+    margin: 15px;
+}
+
+.round-image {
+    border-radius: 50%;
+    object-fit: cover;
+}
+.heading {
+    height: 50%;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    background-color: aqua;
+    align-items: center;
+}
+.googleImg-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: baseline;
+}
+
+.logo-google {
+    width: 272px;
+    height: 92px;
+    display: flex;
+    flex-direction: row;
+    justify-content: baseline;
+    background-color: blue;
+}
+#searchBarBox { 
+    height: 20%;
+}
